@@ -1,0 +1,211 @@
+.phonePopup {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+.phoneLogin {
+  text-align: left;
+  padding: 2px 2px 2px;
+  font-family: Arial, sans-serif;
+}
+
+/* Telephone Image */
+
+.phoneIcon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+
+/* Heading */
+
+.phoneLogin h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+/* Subtitle */
+
+.phoneSubtitle {
+  margin: 12px 0 12px;
+  font-size: 14px;
+  color: #0f0f0f;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Phone Input */
+
+.phoneInputWrapper {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.countryCode {
+  width: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background: #f7f7f7;
+
+  border: 1px solid #ddd;
+  border-radius: 10px 0 0 10px;
+
+  color: #777;
+  font-size: 16px;
+}
+
+.arrow {
+  font-size: 30px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.phoneInputWrapper input {
+  flex: 1;
+
+  border: 1px solid;
+  border-left: none;
+
+  border-radius: 0 10px 10px 0;
+
+  padding: 0 20px;
+
+  font-size: 16px;
+
+  outline: none;
+}
+
+.phoneInputWrapper input::placeholder {
+  color: #aaa;
+}
+
+/* Continue Button */
+
+.continueBtn {
+  width: 100%;
+  height: 60px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #e9e9e9;
+
+  color: #aaa;
+
+  font-size: 17px;
+  font-weight: 600;
+
+  cursor: not-allowed;
+}
+
+.active {
+  background: #6d3ef5;
+  color: white;
+  cursor: pointer;
+}
+
+/* Terms */
+
+.terms {
+  margin-top: 26px;
+  margin-bottom: 0;
+
+  font-size: 14px;
+  color: #777;
+}
+
+.terms a {
+  color: #222;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.otpPopup {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+.otpLogin {
+  text-align: left;
+  
+  font-family: Arial, sans-serif;
+}
+
+.otpIcon {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.otpLogin h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+.otpSubtitle {
+  margin: 12px 0 25px;
+  font-size: 14px;
+  color: #333;
+}
+
+.otpBoxes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.otpBox {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #111;
+}
+
+.otpBox:focus {
+  border: 1.5px solid #111;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 30px;
+}
+
+.otpLoginBtn {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: #e9e9e9;
+  color: #aaa;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: not-allowed;
+}
+
+.otpLoginBtn.otpActive {
+  background: #6d3ef5;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.left {
+  flex: 1;
+}
+
+.left h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.rating {
+  color: #666;
+  
+}
+
+.left h3 {
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+.left ul {
+  padding-left: 20px;
+  color: #555;
+}
+
+.details {
+  color: #6e42e5;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.right {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.btn {
+  margin-top: -20px;
+  width: 100px;
+  height: 45px;
+  border-radius: 12px;
+  border: 1px solid #6a1bff;
+  background: white;
+  color: #6a1bff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height:24px;
+  cursor: pointer;
+}
+
+.right p {
+  margin-top: 8px;
+  color: gray;
+}
+
+.para{
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #545454;
+  flex-wrap: wrap;
+  
+}
+.heading h2{
+  font-size: 28px;
+  color:#0f0f0f;
+  line-height: 40px;
+  font-weight: 700;
+}

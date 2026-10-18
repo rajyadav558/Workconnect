@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 7px 32px;
+  background: #fff;
+}
+
+.promiseContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  width:270px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height:28px ;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.badge {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #c8ecff,
+    #ffd8ea,
+    #d8d1ff
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #004d66;
+}
+
+.emptyCart {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  height: 220px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 130px;
+  width:350px;
+}
+
+.cartImage {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.emptyCart p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #757575;
+  margin: 0;
+}

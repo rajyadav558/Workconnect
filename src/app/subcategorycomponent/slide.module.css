@@ -1,0 +1,47 @@
+:global(.slick-slide div) {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+:global(.slick-list) {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Progress Bar */
+.progressFill {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform-origin: left;
+  animation: progressAnimation 4s linear forwards;
+}
+
+@keyframes progressAnimation {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* Zoom Image */
+.zoomImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  animation: zoomAnimation 4s linear forwards;
+  will-change: transform;
+}
+
+@keyframes zoomAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}

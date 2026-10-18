@@ -1,0 +1,87 @@
+
+.login-btn {
+  width: 100%;
+  height: 54px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #6d3ee8;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #5f32d4;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-right: 15px;
+  border: 1px solid #b0b0b0;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fafafa;
+}
+
+
+
+.timeSlots {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.timeSlot {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 6px;
+  border: 1px solid #c5cde0;
+  border-radius: 8px;
+  background: white;
+  color: #111;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selected {
+  border: 2px solid #1976d2;
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.proceedButton {
+  width: 100%;
+  padding: 14px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #212121;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.proceedButton:disabled {
+  background-color: #dedede;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.proceedButton:not(:disabled):hover {
+  background-color: #424242;
+}

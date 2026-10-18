@@ -1,0 +1,14 @@
+/* Home.module.css */
+
+.imageBox {
+  overflow: hidden;
+  
+}
+
+.categoryImage {
+  transition: transform 0.4s ease;
+}
+
+.imageBox:hover .categoryImage {
+  transform: scale(1.03);
+}
